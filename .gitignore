@@ -1,0 +1,9 @@
+dist/*
+skills/*
+node_modules/*
+.env
+.idea/*
+data
+dist
+# Project exclude paths
+/node_modules/
