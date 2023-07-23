@@ -7,6 +7,9 @@ dotenv.config({path:'../../.env'})
 import { onStart } from './vorpal'
 const log = require('@pioneer-platform/loggerdog')()
 
+//get plugins from file
+
+
 //start wallet
 //welcome
 
@@ -21,4 +24,6 @@ const logCommandLineArguments = () => {
     console.log("--------------------------");
 };
 logCommandLineArguments()
+
+//CLI
 onStart()
